@@ -21,7 +21,7 @@ To create all the necessary tables and columns, run the following
 php artisan migrate
 ```
 
-### Seeding The Database ???
+### Seeding The Database
 To add the dummy jobs with a single user, run the following
 ```
 php artisan db:seed
