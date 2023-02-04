@@ -27,7 +27,7 @@ To add the dummy jobs with a single user, run the following
 php artisan db:seed
 ```
 
-### File Uploading??
+### File Uploading
 When uploading job files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
 ```
 php artisan storage:link
@@ -38,8 +38,8 @@ Upload the files to your document root, Valet folder or run
 ```
 php artisan serve
 ```
-Asking for key generation- Follow below:
-## Mobarak Hossain
+## For asking for key generation- Follow below:
+
 php artisan key:generate
 
 Finally:
